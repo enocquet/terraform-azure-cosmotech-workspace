@@ -1,0 +1,1 @@
+# Module for Cosmo Tech platform
