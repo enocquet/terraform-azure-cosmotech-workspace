@@ -19,8 +19,12 @@ variable "client_secret" {
   description = "The client secret"
 }
 
-variable "resource_group" {
-  description = "The Azure Resource Group"
+variable "tenant_resource_group" {
+  description = "The Azure Resource Group for the tenant"
+}
+
+variable "platform_resource_group" {
+  description = "The Azure Resource Group for the platform"
 }
 
 variable "owner_sp_name" {
